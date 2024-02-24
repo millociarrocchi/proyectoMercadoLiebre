@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing : border-box;
+    
+}
+
+body{
+    font-family : 'Roboto';
+    background-color:#ebebeb;
+
+
+}
+
+.main-header{
+    background-color: #EAC926;
+    padding: 20px 0px 0px;
+    margin: 0;
+}
+
+.main-header-top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+}
+
+
+.logo{
+    max-width: 30vw;
+}
+
+.Buscador{
+    width: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 1;
+    padding: 15px;
+    border: none;
+    flex-direction: row;    
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    color: black; 
+    border: 0;
+    border-radius: 7px;
+    right: 5px;
+    margin: auto;
+    background-color:white;
+    padding:11.5px;
+    
+}   
+
+.copy-header{
+    font-weight: 300;
+    width: 50%;
+    margin-left: 70px;
+    text-align: flex-end;
+    
+}
+
+.main-header-bottom-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header-bottom-bar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin:5px 40px;
+    padding: 0;       
+
+}
+.main-header-bottom-bar ul li{
+    margin: 2px;
+}
+
+
+.main-header-bottom-bar a{
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding: 5px;
+    font-size: 17px;
+    
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+    margin-top: 0;
+    margin-bottom: 15%;
+margin-left: 0%;
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.caja-login{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: -360px;
+    padding: 5px; 
+      
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    width: 280%;
+    margin:15px;
+    margin-left: 5px;
+    padding: 12px;
+    align-items: center;
+}
+.enviar{  
+    
+    width: 130%;
+    margin:15px;
+    margin-right:5px;
+    margin-left: 150px;
+    padding: 12px;
+    background-color: #03264C;
+    color: #ebebeb; 
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.enviar:hover{
+
+    background-color:#0022AA;
+}
+.main-footer {
+    font-size: 2em;
+    background-color: #ebebeb;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    padding: 10px;
+    margin: 10px;  
+    text-align: center;  
+} 
+
+.credit-card, .gift, .security{
+    display: block;
+    font-size: 2em;
+}
+
+.icono-footer {
+    font-size: 30px;
+    color: #1259c3;
+}
+
+.icono-footer:hover{
+    color:#39b54a;
+}
+
+.centrado {
+    text-align: center;
+    background-color: #ebebeb;
+    color:black;
+}
+h4{
+    color:black;
+}
