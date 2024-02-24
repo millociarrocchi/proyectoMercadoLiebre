@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing : border-box
+}
+
+body{
+    font-family : 'Roboto';
+    background-color: white;
+
+}
+.formulario-completo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    margin-left: 30%;
+    background-color: #ebebeb;
+
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px 0px 0px;  
+    
+}
+.logo{
+    width: 25vw;
+}   
+
+.formulario-registro{
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 20%;
+}
+.perfil{   
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}       
+
+.categorias{        
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 5px; 
+}
+
+.caja{
+    border:none;    
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    font-size: 20px;
+}
+
+button{
+    background-color: #1259c3;
+    color: #ebebeb;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+input:invalid {
+    border: 2px solid red;
+  }
+  
+input:invalid + span {
+    display: inline-block;
+    color: red;
+  }
+
+
+  @media(min-width:361px) and (max-width: 920px){
+    .formulario-registro{
+        width: 100vw;
+        margin:15px;
+    }
+    .formulario-completo{
+        width: 100vw;
+        margin:5px;
+    }
+}
